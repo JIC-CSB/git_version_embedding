@@ -27,6 +27,14 @@ is run whenever your code is built.
 
 3. Include gitcommit.h in your code.
 
+4. Add options to your code to print out the git commit details (although these
+can be extracted from the compiled file if necessary).
+
+## Caveats
+
+1. If you haven't commited your changes, then you'll get the last commit in the
+build, this might be misleading.
+
 ## To document
 
 gitignore
