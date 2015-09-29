@@ -1,0 +1,5 @@
+#!/bin/sh
+
+REBUILD_FLAG_FILE=src/rebuild-git-header
+
+touch $REBUILD_FLAG_FILE
