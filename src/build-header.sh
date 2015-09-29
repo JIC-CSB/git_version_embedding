@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Write a suitable git identifier string into a header
+# MRMH 2015-09-29
 
 COMMIT_AUTHOR=`git log -n 1 --format=format:"%cn <%ce>"`
 COMMIT_HASH=`git log -n 1 --format=format:"%H"`
