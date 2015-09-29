@@ -5,4 +5,4 @@
 gitignore
 add header
 update makefile
-hooks for commit?
+hooks for commit? with executable
