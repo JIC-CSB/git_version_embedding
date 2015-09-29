@@ -32,7 +32,7 @@ int main(int argc, char **argv)
         exit(2);
     }
 
-    printf("Hello world!\n");
+    printf("Hello brave new world!\n");
     
     return 0;
 }
