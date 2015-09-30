@@ -10,7 +10,10 @@ COMMIT_DATE=`git log -n 1 --format=format:"%ad"`
 GITFILE="gitcommit.h"
 
 cat > $GITFILE << EOL
+#ifndef GITCOMMIT_H
+#define GITCOMMIT_H
 char *git_commit_author = "$COMMIT_AUTHOR";
 char *git_commit_hash = "$COMMIT_HASH";
 char *git_commit_date = "$COMMIT_DATE";
+#endif
 EOL
