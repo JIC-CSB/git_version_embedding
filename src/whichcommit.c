@@ -10,6 +10,9 @@ void print_build_details()
     printf("Build commit hash: %s\n", git_commit_hash);
     printf("Build commit author: %s\n", git_commit_author);
     printf("Build commit date: %s\n", git_commit_date);
+    printf("Build commit subject: %s\n", git_commit_subject);
+    printf("\nTo return to this commit state, use:\n\n");
+    printf("git checkout %s\n", git_commit_hash);
 }
 
 int main(int argc, char **argv)
