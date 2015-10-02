@@ -35,7 +35,7 @@ int main(int argc, char **argv)
         exit(2);
     }
 
-    printf("Hello brave new world! Now we have more text.\n");
+    printf("Hello brave new world! Now we have more text.\nAnother line.\n");
     
     return 0;
 }
